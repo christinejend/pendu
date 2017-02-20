@@ -23,14 +23,14 @@
 		</p>
 	</div>
 	<?php if ($wordFound): ?>
-            <div class="alert alert-success text-center" role="alert">
-                <p class="muted" style="width: 50%">Chapeau &nbsp;! Tu as trouvé le mot
+            <div class="alert alert-success" role="alert">
+                <p class="text-center" style="width: 50%">Chapeau &nbsp;! Tu as trouvé le mot
                     «&nbsp;<b><?php echo $word; ?></b>&nbsp;». <a href="index.php">On refait une part&nbsp;?</a>
                 </p>
        		</div>
 	 <?php elseif ($remainingChance == 0): ?>
-            <div class="alert alert-danger text-center" role="alert" >
-                <p class="muted" style="width: 50%">Tu as perdu&nbsp;! Le mot à trouver était «&nbsp;<b><?php echo $word ?></b>&nbsp;». <a href="index.php">On refait une part&nbsp;?</a>
+            <div class="alert alert-danger" role="alert" >
+                <p class=" text-center" style="width: 50%">Tu as perdu&nbsp;! Le mot à trouver était «&nbsp;<b><?php echo $word ?></b>&nbsp;». <a href="index.php">On refait une part&nbsp;?</a>
                 </p>
             </div>
      <?php else: ?>
