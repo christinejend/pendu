@@ -11,5 +11,5 @@ if ( $_SERVER['REQUEST_METHOD'] === 'POST'){
 }elseif( $_SERVER['REQUEST_METHOD'] === 'GET'){
 	require('controllers/getController.php');
 }else{
-	$error = "La requete HTTP n'est pas valide";
+	echo "La requete HTTP n'est pas valide";
 }
